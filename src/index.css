@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFFBF5;
+}
+
+.font-fun {
+  font-family: 'Fredoka One', cursive;
+}
+
+/* Swiper custom styles */
+.swiper-pagination-bullet-active {
+  background: #FF6B35 !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #FF6B35 !important;
+}
+
+/* AOS animations */
+[data-aos] {
+  pointer-events: none;
+}
+[data-aos].aos-animate {
+  pointer-events: auto;
+}
