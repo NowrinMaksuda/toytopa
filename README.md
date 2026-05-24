@@ -1,31 +1,31 @@
-# 🧸 ToyTopia
+#  ToyTopia
 
 A vibrant and playful online marketplace for kids' toys, encouraging families to discover and support local toy sellers.
 
-## 🌐 Live URL
+##  Live URL
 
 [https://toytopia.netlify.app](https://toytopia.netlify.app)
 
-## 🎯 Purpose
+##  Purpose
 
 ToyTopia connects families with local toy sellers. Users can browse toys, view detailed information, and interact with the platform after logging in. The platform emphasizes community, safety, and fun.
 
-## ✨ Key Features
+## Key Features
 
-- 🔐 Firebase Authentication (Email/Password + Google)
-- 🧸 Browse and search toys by name and category
-- 📄 Protected Toy Details page with "Try Now" form
-- 👤 My Profile page — view and edit name & photo
-- 🔑 Forgot Password with Gmail redirect
-- 🎠 Swiper.js hero slider
-- 🎨 AOS scroll animations
-- 📱 Fully responsive (mobile, tablet, desktop)
-- 🔒 Environment variables for Firebase config
-- 🚫 Custom 404 page
-- 📝 Blogs page (extra private route)
-- 🌟 Dynamic page titles per route
+- Firebase Authentication (Email/Password + Google)
+- Browse and search toys by name and category
+-  Protected Toy Details page with "Try Now" form
+-  My Profile page — view and edit name & photo
+- Forgot Password with Gmail redirect
+- Swiper.js hero slider
+- AOS scroll animations
+- Fully responsive (mobile, tablet, desktop)
+- Environment variables for Firebase config
+- Custom 404 page
+- Blogs page (extra private route)
+- Dynamic page titles per route
 
-## 📦 NPM Packages Used
+## NPM Packages Used
 
 | Package | Purpose |
 |---|---|
@@ -39,7 +39,7 @@ ToyTopia connects families with local toy sellers. Users can browse toys, view d
 | `tailwindcss` | Utility-first CSS |
 | `daisyui` | Tailwind component library |
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repo
@@ -57,7 +57,7 @@ cp .env.example .env.local
 npm run dev
 ```
 
-## 🔧 Environment Variables
+##  Environment Variables
 
 Create a `.env.local` file with your Firebase config:
 
@@ -70,7 +70,7 @@ VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
 VITE_FIREBASE_APP_ID=your_app_id
 ```
 
-## 🏗️ Build for Production
+## Build for Production
 
 ```bash
 npm run build
